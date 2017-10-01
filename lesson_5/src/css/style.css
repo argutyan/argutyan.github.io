@@ -1,0 +1,75 @@
+h1 {
+  text-align: center;
+	color: #f00;
+  text-transform: uppercase;
+}
+
+.devotion {
+  font-family: Arial;
+	font-style: oblique;
+	color: rgb(255, 255, 255);
+	background-color: grey;
+	border-style: solid;
+}
+
+.content {
+  color: grey;
+}
+
+#block-1 {
+	font-weight: normal;
+}
+
+.intro {
+  color: rgb(255, 50, 50);
+}
+
+.cities {
+	text-decoration: line-through;
+}
+
+.many-years {
+	font-weight: bolder;
+}
+
+.vardavar {
+	text-decoration: underline;
+}
+
+.chapter-1 {
+	text-align: center;
+	color: rgb(255, 50, 50)
+}
+
+.chapter-2 {
+	text-align: center;
+	color: rgb(255, 50, 50)
+}
+
+.chapter-3 {
+	text-align: center;
+	color: rgb(255, 50, 50)
+}
+
+#block-2 {
+	font-weight: normal;
+}
+
+#block-3 {
+	font-weight: normal;
+}
+
+#block-4 {
+	font-weight: normal;
+}
+.link-1 {
+	background-color: grey;
+	display: inline-block;
+	width: 200px;
+}
+
+.link-2 {
+	background-color: grey;
+	display: inline-block;
+	width: 200px;
+}

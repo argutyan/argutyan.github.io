@@ -1,0 +1,51 @@
+
+.box {
+   background-color: #000;
+	 height: 80px;
+	 width: 100%;
+	 top: 0;
+	 right: 0;
+	 left: 0;
+	 position: fixed;	
+ 
+}
+
+.logo {
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  float: left;
+  display: line;
+  line-height: 40px;
+  margin-left: 30px;
+}
+ #main-menu {
+  width: auto;
+  line-height: 40px;
+  float: right;
+} 
+
+#main-menu ul li {
+  font-family: arial;
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  text-transform: uppercase; 
+}
+
+#main-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-menu ul li a:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.text p {
+	margin-top: 90px;
+  padding: 10px;
+  margin-bottom: 30px;
+}

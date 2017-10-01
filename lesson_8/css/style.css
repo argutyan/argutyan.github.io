@@ -1,0 +1,19 @@
+
+ 
+.box {
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+}
+
+.box img{
+ 	height: 136px;
+}
+
+ .box p {
+	font-size: 18px;
+	font-family: arial regular;
+	text-align: center;
+	margin-top: 10px;
+
+}
