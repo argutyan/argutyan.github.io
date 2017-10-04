@@ -22,7 +22,8 @@ body {
   width: 319px;
   height: 367px;
   background-color: #fafdfd;
-  
+  position: relative;
+
 }
 
 .login {
@@ -34,7 +35,7 @@ body {
 
 }
 
-.button {
+.create-account {
   width: 150px;
   height: 17px;
   display: inline-block;
@@ -44,13 +45,10 @@ body {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 0;
+  position: absolute;
+  margin-top: -3px;
   margin-left: 30px;
 
-}
-
-.button p {
-  margin-top: 0;
 }
 
 .form-header, .password-header, .checkpass-header {
