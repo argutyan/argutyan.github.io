@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
 .first {
 	font-family: 'Open Sans', sans-serif;
 }
 
 
 
-@font-face .second {
+@font-face  {
 	font-family: 'Bebas';
-	src: url('../Bebas.eot');
-	src: url('../Bebas.eot?#iefix') format('embedded-opentype'),
-		    url('../Bebas.woff2') format('woff2'),
-		    url('../Bebas.woff') format('woff'),
-		    url('../Bebas.ttf') format('truetype'),
-		    url('../Bebas.svg#Bebas') format('svg');
+	src: url('../fonts/Bebas.eot');
+	src: url('../fonts/Bebas.eot?#iefix') format('embedded-opentype'),
+		    url('../fonts/Bebas.woff2') format('woff2'),
+		    url('../fonts/Bebas.woff') format('woff'),
+		    url('../fonts/Bebas.ttf') format('truetype'),
+		    url('../fonts/Bebas.svg#Bebas') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
+.second {
+	font-family: 'Bebas', sans-serif;
+}
 
-@font-face .third {
+@font-face  {
 	font-family: 'Lato';
-	src: url('../Lato-Regular.eot');
-	src: url('../Lato-Regular.eot?#iefix') format('embedded-opentype'),
-		url('../Lato-Regular.woff2') format('woff2'),
-		url('../Lato-Regular.woff') format('woff'),
-		url('../Lato-Regular.ttf') format('truetype'),
-		url('../Lato-Regular.svg#Lato-Regular') format('svg');
+	src: url('../fonts/Lato-Regular.eot');
+	src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/Lato-Regular.woff') format('woff'),
+		url('../fonts/Lato-Regular.ttf') format('truetype'),
+		url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
-
+.third {
+	font-family: 'Lato-Regular', sans-serif;
+}
 
 
 .forth {
