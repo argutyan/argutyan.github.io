@@ -3,23 +3,27 @@
 # Anna Argutyan
 Homework
 
-[Урок 4](https://argutyan.github.io/lesson_4/ "Знакомство с основами html") 
+[Lesson 4](https://argutyan.github.io/lesson_4/ "Basic html") 
 
-[Урок 5](https://argutyan.github.io/lesson_5/ "Знакомство с основами css")
+[Lesson 5](https://argutyan.github.io/lesson_5/ "basic css")
 
-[Урок 6.1](https://argutyan.github.io/lesson_6.1/ "Позиционирование в css")
+[Lesson 6.1](https://argutyan.github.io/lesson_6.1/ "Positioning in css")
 
-[Урок 6.2](https://argutyan.github.io/lesson_6.2/ "Позиционирование в css")
+[Lesson 6.2](https://argutyan.github.io/lesson_6.2/ "Positioning in css")
 
-[Урок 7](https://argutyan.github.io/lesson_7/ "Верстка первого макета html+css")
+[Lesson 7](https://argutyan.github.io/lesson_7/ " html+css")
 
-[Урок 8](https://argutyan.github.io/lesson_8/ "Bootstrap.Ускорение верстки в разы")
+[Lesson 8](https://argutyan.github.io/lesson_8/ "Bootstrap.Ускорение верстки в разы")
 
-[Урок 9](https://argutyan.github.io/lesson_9/ "Верстка при помощи.Верстка первого макета с помощью bootstrap")
+[Lesson 9](https://argutyan.github.io/lesson_9/ "Верстка при помощи.Верстка первого макета с помощью bootstrap")
 
-[Урок 10](https://argutyan.github.io/lesson_10/ "Less")
+[Lesson 10](https://argutyan.github.io/lesson_10/ "Less")
 
-[Урок 11](https://argutyan.github.io/lesson_11/ "Сниппеты ")
+[Lesson 11](https://argutyan.github.io/lesson_11/ "Сниппеты ")
 
-[Урок 12](https://argutyan.github.io/lesson_12/ "Репозиторий на Github")
-
+[Lesson 12](https://argutyan.github.io/lesson_12/ "Репозиторий на Github")
+[Lesson 13]
+[Lesson 14]
+[Lesson 15]
+[Lesson 16]
+[Lesson 17]
