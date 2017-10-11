@@ -13,17 +13,22 @@ Homework
 
 [Lesson 7](https://argutyan.github.io/lesson_7/ " html+css")
 
-[Lesson 8](https://argutyan.github.io/lesson_8/ "Bootstrap.Ускорение верстки в разы")
+[Lesson 8](https://argutyan.github.io/lesson_8/ "Bootstrap. Speeding up the layout")
 
-[Lesson 9](https://argutyan.github.io/lesson_9/ "Верстка при помощи.Верстка первого макета с помощью bootstrap")
+[Lesson 9](https://argutyan.github.io/lesson_9/ "First page layout using bootstrap")
 
 [Lesson 10](https://argutyan.github.io/lesson_10/ "Less")
 
-[Lesson 11](https://argutyan.github.io/lesson_11/ "Сниппеты ")
+[Lesson 11](https://argutyan.github.io/lesson_11/ "Snippets ")
 
-[Lesson 12](https://argutyan.github.io/lesson_12/ "Репозиторий на Github")
-[Lesson 13]
-[Lesson 14]
-[Lesson 15]
-[Lesson 16]
-[Lesson 17]
+[Lesson 12](https://argutyan.github.io/lesson_12/ "Repository on Github")
+[Lesson 13](https://argutyan.github.io/lesson_13/ "Responsive layou")
+[Module 5. Practice_part 1]("")
+[Lesson 14](https://argutyan.github.io/lesson_14/ "")
+[Module 5. Practice_part 2](https://argutyan.github.io/Module_5_part_2/"")
+[Lesson 15] (https://argutyan.github.io/lesson_15/ "Preudo-classes & preudo-elements")
+[Module 5. Practice part 3](https://argutyan.github.io/Module_5_part_3/)
+[Lesson 16](https://argutyan.github.io/lesson_16/ "")
+[Module 5. Practice part 4](https://argutyan.github.io/Module_5_part_4/)
+[Lesson 17](https://argutyan.github.io/lesson_17/)
+[Module 5. Practice part 5](https://argutyan.github.io/Module_5_part_5/)
