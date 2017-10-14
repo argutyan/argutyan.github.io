@@ -222,19 +222,28 @@ section {
   color: #ffffff;
 }
 .price {
-  background: #45b613 url(../img/price-bg.jpg) center center no-repeat;
-  /* price */
-  /* popup window */
+  background: #286b0a url(../img/price-bg.jpg) center no-repeat;
+  /* price-list */
 }
-.price-header-btn {
-  margin-top: 2.5rem;
-  text-transform: uppercase;
+.price .button-wrap {
+  display: table;
+  margin-top: 5rem;
+  width: 100%;
+  height: 7rem;
 }
-.price-button {
+.price .button-wrap .price-button {
+  display: table-cell;
+  vertical-align: middle;
   text-align: right;
+}
+.price .section-header-light {
+  margin-top: 5rem;
+  vertical-align: bottom;
 }
 .price-block {
   min-height: 50rem;
+  margin-top: 2;
+  margin-bottom: 3rem;
   padding: 1rem 3rem 4rem;
   -webkit-box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
           box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
@@ -242,7 +251,7 @@ section {
   background-color: #ffffff;
 }
 .price h4 {
-  margin: 2rem 0;
+  margin-top: 2rem;
   font-size: 1.9rem;
   font-family: 'ProximaNova_bold' sans-serif;
 }
@@ -250,6 +259,7 @@ section {
   width: 100%;
   max-width: 30rem;
   display: inline-block;
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 .price-tag {
@@ -264,7 +274,7 @@ section {
   min-height: 14rem;
   line-height: 1.6rem;
   text-align: center;
-  /* price-list */
+  /* list */
 }
 .price-list li {
   /* li */
@@ -279,7 +289,15 @@ section {
   background-size: 100%;
   vertical-align: middle;
 }
-.price .popup {
+.price-block-btn {
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 160px;
+  height: 40px;
+}
+/* price */
+/* popup window */
+.popup {
   display: none;
   position: fixed;
   left: 0;
@@ -290,11 +308,8 @@ section {
   height: 100%;
   z-index: 9;
   background-color: rgba(0, 0, 0, 0.5);
-  /* &-header {
- 	.bold();
- } */
 }
-.price .popup-content {
+.popup-content {
   position: fixed;
   left: 50%;
   top: 10%;
@@ -304,12 +319,12 @@ section {
   padding: 4rem 6rem;
   text-align: center;
 }
-.price .popup-form {
+.popup-form {
   margin-top: 3rem;
   padding: 0;
   text-align: center;
 }
-.price .popup-close {
+.popup-close {
   position: absolute;
   top: -2rem;
   right: -2rem;
@@ -320,33 +335,43 @@ section {
   font-size: 3rem;
   color: #ffffff;
 }
+@media (max-width: 1200px) {
+  .price h4 {
+    font-size: 1.4rem;
+    font-family: 'ProximaNova_bold' sans-serif;
+  }
+}
 @media (max-width: 991px) {
-  .price .main {
+  .main {
     background-position: top right;
   }
-  .price .wrap-block {
+  .wrap-block {
     text-align: center;
   }
-}
-.price .phone-block {
-  text-align: center;
-}
-.price .main-content {
-  margin-top: 3rem;
-}
-.price .main-title {
-  text-align: center;
-  padding-bottom: 3rem;
-}
-.price .price-button {
-  text-align: center;
-  padding: 2rem 0;
-}
-.price .price-block {
-  margin-top: 2rem;
-}
-.price .section-header-light {
-  margin-bottom: 0;
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .price-background {
+    background-position: center;
+  }
+  .price-block {
+    min-height: 40rem;
+    margin-top: 2rem;
+  }
+  .price h4 {
+    font-size: 1.9rem;
+    font-family: 'ProximaNova_bold' sans-serif;
+  }
+  .price .section-header-light {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 767px) {
   .main {
@@ -358,18 +383,25 @@ section {
   .wrap-block {
     text-align: center;
   }
-  .price-button {
-    text-align: center;
-    padding: 2rem 0;
+  .price-background {
+    background-position: center;
   }
   .price-block {
+    min-height: 40rem;
     margin-top: 2rem;
+  }
+  .price h4 {
+    font-size: 1.9rem;
+    font-family: 'ProximaNova_bold' sans-serif;
+  }
+  .price .section-header-light {
+    margin-bottom: 0;
   }
   .section-header-light {
     margin-bottom: 0;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) and (max-width: 320px) {
   .main {
     background-position: top right;
   }
@@ -385,15 +417,10 @@ section {
   .wrap-block {
     text-align: center;
   }
-  .price-button {
-    text-align: center;
-    padding: 2rem 0;
+  .price-background {
+    background-position: top right;
   }
   .price-block {
     margin-top: 2rem;
   }
-  .section-header-light {
-    margin-bottom: 0;
-  }
 }
-/* media */
