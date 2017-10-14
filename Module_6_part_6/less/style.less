@@ -60,6 +60,7 @@ button, input, a, textarea {
  }
 }
 .btn {
+
 	 padding: 1rem 1rem;
 	 border-radius: 8px;
 	 font-size: 1.2rem;
@@ -89,18 +90,18 @@ section {
 }
 /* main */
 .main {
-	 padding: 3rem 5rem;
-	 background: #fff url(../img/main-bg.jpg) center center no-repeat;
-	 background-size: cover;
+	padding: 3rem 5rem;
+	background: #fff url(../img/main-bg.jpg) center center no-repeat;
+	background-size: cover;
 	 &-content {
-	 	margin-top: 10rem;
+	 margin-top: 10rem;
 	 	
-	  h1 {
-	  	margin-top: 0;
-	 	 margin-bottom: 4rem;
-	 	.bold();
-	  font-size: 4rem ;
-	  line-height: 5rem;
+	 h1 {
+	 margin-top: 0;
+	 margin-bottom: 4rem;
+	 .bold();
+	 font-size: 4rem ;
+	 line-height: 5rem;
    text-transform: uppercase;
    }
 }
@@ -263,28 +264,39 @@ span {
  font-size: 1.5rem;
  text-align: center;
  color: @light;
-  }
+ }
 }
 
 .price {
-  background: @icons url(../img/price-bg.jpg) center center no-repeat;
-  &-header-btn {
-    margin-top: 2.5rem;
-    text-transform: uppercase;
+  background:#286b0a url(../img/price-bg.jpg) center no-repeat;
+
+  .button-wrap {
+  display: table;
+  margin-top: 5rem;
+  width: 100%;
+  height: 7rem;
+  .price-button {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
   }
-  &-button {
-    text-align: right;
-  }
-  
+}
+  .section-header-light {
+  margin-top: 5rem;
+  vertical-align: bottom;
+ }
+
   &-block {
   min-height: 50rem;
+  margin-top: 2;
+  margin-bottom: 3rem;
   padding: 1rem 3rem 4rem;
   box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
   text-align: center;
   background-color: @light;
-}
+  }
  h4 {
-  margin: 2rem 0;
+  margin-top: 2rem;
   font-size: 1.9rem;
   .bold();
  }
@@ -292,6 +304,7 @@ span {
   width: 100%;
   max-width: 30rem;
   display: inline-block;
+  margin-top: 2rem;
   margin-bottom: 3rem;
 
  } 
@@ -307,7 +320,7 @@ span {
   min-height: 14rem;
   line-height: 1.6rem;
   text-align: center;
- 
+  
  li {
   &:before {
     content: '';
@@ -318,8 +331,18 @@ span {
     background:  url(../img/check.svg) center no-repeat;
     background-size: 100%;
     vertical-align: middle;
-  } /* li */
+   } /* li */
+  } /* list */
  } /* price-list */
+
+ &-block-btn {
+   display: inline-block;
+   font-size: 1.2rem;
+   width: 160px;
+   height: 40px;
+ }
+
+ 
 } /* price */
 
 
@@ -327,7 +350,7 @@ span {
 
 /* popup window */
 .popup {
-display: none;
+  display: none;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -341,35 +364,40 @@ display: none;
 	 &-content {
 	 position: fixed;
 	 left: 50%;
-  top: 10%;
-  background-color:@light;
-  transform: translateX(-50%);
-  padding: 4rem 6rem;
-  text-align: center;
+   top: 10%;
+   background-color:@light;
+   transform: translateX(-50%);
+   padding: 4rem 6rem;
+   text-align: center;
 	 }
-  &-form {
-  margin-top: 3rem;
-  padding: 0;
-  text-align: center;
-  
- }
+   &-form {
+   margin-top: 3rem;
+   padding: 0;
+   text-align: center;
+  }
 
 	&-close {
-		position: absolute;
-		top: -2rem;
-		right: -2rem;
-		width: 2rem;
-		text-align: center;
-		border: none;
-		background-color: transparent;
-		font-size: 3rem;
-		color: @light;
- }
-
- /* &-header {
- 	.bold();
- } */
+	 position: absolute;
+	 top: -2rem;
+	 right: -2rem;
+	 width: 2rem;
+	 text-align: center;
+	 border: none;
+	 background-color: transparent;
+	 font-size: 3rem;
+	 color: @light;
+  }
 }
+
+@media (max-width: 1200px) {
+.price {   
+  h4 {
+  font-size: 1.4rem;
+  .bold();
+}
+}
+}
+
 
 @media (max-width: 991px) {
 .main {
@@ -377,7 +405,6 @@ display: none;
   }
 .wrap-block {
   text-align: center;
-}
 }
 
 .phone-block {
@@ -391,18 +418,26 @@ display: none;
  	padding-bottom: 3rem;
  }
 .price {
-  &-button {
-    text-align: center;
-    padding: 2rem 0;
+  &-background {
+    background-position: center;
   }
+
   &-block {
+    min-height: 40rem;
     margin-top: 2rem;
   }
+   h4 {
+  font-size: 1.9rem;
+  .bold();
  }
+ 
  .section-header-light {
   margin-bottom: 0;
+  }
  }
 }
+
+
 
 @media (max-width: 767px) {
 .main {
@@ -415,13 +450,17 @@ display: none;
 		text-align: center;
 }
 .price {
-  &-button {
-    text-align: center;
-    padding: 2rem 0;
+  &-background {
+    background-position: center;
   }
+ 
   &-block {
+    min-height: 40rem;
     margin-top: 2rem;
   }
+  h4 {
+  font-size: 1.9rem;
+  .bold();
  }
  .section-header-light {
   margin-bottom: 0;
@@ -446,19 +485,18 @@ display: none;
 		text-align: center;
 	}
   .price {
-  &-button {
-    text-align: center;
-    padding: 2rem 0;
+  &-background {
+    background-position: top right;
   }
   &-block {
     margin-top: 2rem;
   }
  }
+}
  .section-header-light {
   margin-bottom: 0;
  }
 }
- /* media */
 
 
 
