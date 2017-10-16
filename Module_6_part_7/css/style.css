@@ -298,8 +298,10 @@ section {
 /* price end */
 /* feedback */
 .feedback {
+  position: relative;
   background: url(../img/feedback/feedback-bg.jpg) center no-repeat;
   background-size: cover;
+  /* end of form */
 }
 .feedback-prev-btn {
   left: 0;
@@ -357,6 +359,44 @@ section {
 }
 .feedback-slider p {
   font-size: 1.6rem;
+}
+.feedback-form {
+  margin-top: 5rem;
+  padding: 4rem 10rem;
+  text-align: center;
+  background-color: #ffffff;
+  background-size: cover;
+}
+.feedback-form h3 {
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_bold' sans-serif;
+}
+.feedback-form label {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(20%);
+          transform: translateX(-50%) translateY(20%);
+  padding: 0.5rem;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+}
+.feedback-form .main-form-btn {
+  display: inline-block;
+  position: absolute;
+  right: 60%;
+  width: 80%;
+  height: 5.5rem;
+}
+.hand {
+  /*  display: table-cell;
+   width: 413px;
+   height: 361px;
+   transform: translateX(-80%); */
+  position: absolute;
+  /*  width:  300px;
+  height: 250px; */
+  bottom: 5.2rem;
+  left: 7rem;
 }
 /* popup window */
 .popup {
