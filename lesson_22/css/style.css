@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.contacts {
+  width:  380px;
+  height: 432px;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #c60b0b;
+}
+
+.contacts-header {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 4rem;
+  text-align: center;
+  color: white;
+}
+
+.contacts-text {
+  font-weight: 300;
+ text-align: center;
+ color: white;
+}
+
+p {
+  font-size: 18px;
+}
+.map {
+  margin-top: 1rem;
+}
+.footer {
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+
+.tech-text {
+font-size: 1.7rem;
+font-weight: 400;
+text-align: left;
+}
+
+.certification-text {
+margin: 1rem; 
+color:  #666666;
+font-size: 1.5rem;
+font-weight: 400;
+text-align: center;
+}
+
+.h3 {
+display: inline-block;
+color:  #000000;
+font-size: 1.375rem;
+font-weight: 600;
+right:0;
+}
+
+.span {
+color:  #000000;
+font-size: 0.875rem;
+font-weight: 400;
+text-align: right;
+}
+
+.contact-details {
+  text-align: right;
+  color:  #000000;
+}
+
+.number {
+font-size: 2rem;
+font-weight: 600;
+}
+
+.address {
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+
