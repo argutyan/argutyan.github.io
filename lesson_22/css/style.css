@@ -2,12 +2,20 @@
   box-sizing: border-box;
 }
 
+main {
+  position: relative;
+}
+
 .contacts {
+  display: inline-block;
+  position: absolute;
   width:  380px;
   height: 432px;
   margin-top: 1rem;
   padding: 1rem;
   background-color: #c60b0b;
+  transform: translateX(56%);
+  z-index: 30;
 }
 
 .contacts-header {
@@ -79,5 +87,8 @@ font-weight: 600;
 font-size: 1.5rem;
 font-weight: 400;
 }
+
+
+
 
 
