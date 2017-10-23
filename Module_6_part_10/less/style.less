@@ -351,8 +351,8 @@ span {
 /* feedback */
 .feedback {
   position: relative;
-  background:  url(../img/feedback/feedback-bg.jpg) center no-repeat ;
-  background-size: cover;
+  background: #fff url(../img/feedback/feedback-bg.jpg) center no-repeat;
+  background-size: 50rem;
   &-prev-btn {
     left:0;
     left: -4rem;
@@ -384,7 +384,8 @@ span {
   &-slider {
     padding: 5rem 6rem;
     background-color: @light;
-    box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+    box-shadow: 6px 10px 18px 0px rgba(0, 0, 0.11, 0.11);
+    
 
     &-btn {
     position: absolute;
@@ -411,11 +412,11 @@ span {
   } /* end of slider */
 
 &-form {
-margin-top: 5rem;
+margin-top: 3rem;
 padding: 4rem 10rem;
 text-align: center;
 background-color: @light;
-background-size: cover;
+background-size: 55rem;
 h3 {
   font-size: 1.9rem;
   .bold();
@@ -431,16 +432,17 @@ h3 {
   }
   .main-form-btn {
     display: inline-block;
-    position: absolute;
-    right: 60%;
-    max-width: 40rem;
-    margin: auto;
+    position: center;
+    /* right: 60%; */
+    max-width: 20rem;
+    min-height: 5rem;
+   
   }
  } /* end of form */
 } /* end of fb */
    .hand {
    position: absolute;
-   bottom: 6rem;
+   bottom: 5.9rem;
    left: 6rem;
    width: 22%;
    height: 18%;
@@ -449,26 +451,31 @@ h3 {
  
  /*scheme*/
  .scheme {
-  background: #fff url(../img/scheme/bg.jpg) bottom -10rem right -10rem no-repeat;
-  background-size: 150rem;
-&-block {
-min-height: 30rem;
-}
+  background: #fff url(../img/scheme/scheme-bg.jpg) bottom -12rem right -10rem no-repeat;
+  background-size: 65rem;
+  &-block {
+  margin-top: 7rem;
+  min-height: 30rem;
+  }
 
+  .scheme-header, .scheme-header-small {
+    display: block;
+    text-align: center;
+   }
 
-h2, p {
-  text-align: center;
-}
+ 
 p {
-  font-size: 1rem;
+font-size: 1.5rem;/* Approximation due to font substitution */
+line-height: 1;/* Approximation due to font substitution */
+text-align: left;
 }
 
 h3 {
 color:  #1a1820;
 font-size: 2rem;
 .bold();
-}
-}
+} //h3
+} //scheme
 
 
 .all-inclusive{
@@ -478,13 +485,13 @@ font-size: 2rem;
     color: @icons;
     .bold();
   }
-  p {
-    font-size: 1rem;
+  .section-header-sub {
+    font-size: 1.5rem;
   }
   .media {
     margin-top: 2rem;
-    font-size: 1.3rem;
-    min-height: 9rem;
+    font-size: 1.1rem;
+    min-height: 11rem;
 h4 {
   .bold();
   font-size: 1.6rem;
@@ -640,6 +647,12 @@ opacity: 0.5;
    width: 22%;
    height: 18%;
  }
+  label {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(30%);
+  }
+ 
 } //fb
 .price {   
   h4 {
@@ -696,20 +709,20 @@ opacity: 0.5;
    background-size: cover;
    }
   label {
-  margin-top: -2.9%;
+  position: absolute;
   left: 50%;
-  text-align: center;
+  transform: translateX(-50%) translateY(-40%);
   }
    .main-form-btn {
-    margin-top: -1rem;
     display: inline-block;
-    position: absolute;
-    transform: translateX(60%);
+    position: center;
+    /* right: 60%; */
+    max-width: 20rem;
+    min-height: 5rem;
+   
   }
  } //feedback
-  .hand {
-   display: none;
-   }
+  
   .problems{
   &-list {
     min-height: auto;
@@ -718,11 +731,22 @@ opacity: 0.5;
   display: none;
   }
  }
+
+ .hand {
+   display: none;
+   }
 }
 
 @media (max-width: 767px) {
 .main {
   background-position: top left;
+
+  &-title h1 {
+    font-size: 1.71rem;
+   .bold();
+    text-align: center;
+    padding-bottom: 0;
+   }
 }
 .header {
   text-align: center;
@@ -753,9 +777,9 @@ opacity: 0.5;
    text-align: center;
    }
 label {
-  margin-top: -2.9%;
+  position: absolute;
   left: 50%;
-  text-align: center;
+  transform: translateX(-50%) translateY(-40%);
   }
     &-prev-btn {
     left: 0;
@@ -766,6 +790,11 @@ label {
     right: 0;
   }
 
+  
+
+  /* one } was added*/
+
+} //feedback
 } //767media
 
 
@@ -796,18 +825,18 @@ label {
   margin-bottom: 0;
   }
  } /* end of price */
-}
+
  .feedback {
   label {
-  margin-top: -8%;
+  position: absolute;
   left: 50%;
-  text-align: center;
-  font-size: 1.2rem;
-   }
+  transform: translateX(-50%) translateY(-40%);
   }
  }
 }
-/* end of media */
+ 
+}/* end of media */
+/* one} removed */
 
 
 

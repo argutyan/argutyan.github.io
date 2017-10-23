@@ -299,8 +299,8 @@ section {
 /* feedback */
 .feedback {
   position: relative;
-  background: url(../img/feedback/feedback-bg.jpg) center no-repeat;
-  background-size: cover;
+  background: #ffffff url(../img/feedback/feedback-bg.jpg) center no-repeat;
+  background-size: 50rem;
   /* end of slider */
   /* end of form */
 }
@@ -362,11 +362,11 @@ section {
   font-size: 1.6rem;
 }
 .feedback-form {
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 4rem 10rem;
   text-align: center;
   background-color: #ffffff;
-  background-size: cover;
+  background-size: 55rem;
 }
 .feedback-form h3 {
   font-size: 1.9rem;
@@ -383,33 +383,39 @@ section {
 }
 .feedback-form .main-form-btn {
   display: inline-block;
-  position: absolute;
-  right: 60%;
-  max-width: 40rem;
-  margin: auto;
+  position: center;
+  /* right: 60%; */
+  max-width: 20rem;
+  min-height: 5rem;
 }
 /* end of fb */
 .hand {
   position: absolute;
-  bottom: 6rem;
+  bottom: 5.9rem;
   left: 6rem;
   width: 22%;
   height: 18%;
 }
 /*scheme*/
 .scheme {
-  background: #ffffff url(../img/scheme/bg.jpg) bottom -10rem right -10rem no-repeat;
-  background-size: 150rem;
+  background: #ffffff url(../img/scheme/scheme-bg.jpg) bottom -12rem right -10rem no-repeat;
+  background-size: 65rem;
 }
 .scheme-block {
+  margin-top: 7rem;
   min-height: 30rem;
 }
-.scheme h2,
-.scheme p {
+.scheme .scheme-header,
+.scheme .scheme-header-small {
+  display: block;
   text-align: center;
 }
 .scheme p {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  /* Approximation due to font substitution */
+  line-height: 1;
+  /* Approximation due to font substitution */
+  text-align: left;
 }
 .scheme h3 {
   color: #1a1820;
@@ -424,13 +430,13 @@ section {
   color: #45b613;
   font-family: 'ProximaNova_bold' sans-serif;
 }
-.all-inclusive p {
-  font-size: 1rem;
+.all-inclusive .section-header-sub {
+  font-size: 1.5rem;
 }
 .all-inclusive .media {
   margin-top: 2rem;
-  font-size: 1.3rem;
-  min-height: 9rem;
+  font-size: 1.1rem;
+  min-height: 11rem;
 }
 .all-inclusive .media h4 {
   font-family: 'ProximaNova_bold' sans-serif;
@@ -565,6 +571,12 @@ section {
     width: 22%;
     height: 18%;
   }
+  .feedback label {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(30%);
+            transform: translateX(-50%) translateY(30%);
+  }
   .price h4 {
     font-size: 1.4rem;
     font-family: 'ProximaNova_bold' sans-serif;
@@ -611,19 +623,17 @@ section {
     background-size: cover;
   }
   .feedback label {
-    margin-top: -2.9%;
+    position: absolute;
     left: 50%;
-    text-align: center;
+    -webkit-transform: translateX(-50%) translateY(-40%);
+            transform: translateX(-50%) translateY(-40%);
   }
   .feedback .main-form-btn {
-    margin-top: -1rem;
     display: inline-block;
-    position: absolute;
-    -webkit-transform: translateX(60%);
-            transform: translateX(60%);
-  }
-  .hand {
-    display: none;
+    position: center;
+    /* right: 60%; */
+    max-width: 20rem;
+    min-height: 5rem;
   }
   .problems-list {
     min-height: auto;
@@ -631,10 +641,19 @@ section {
   .problems-woman {
     display: none;
   }
+  .hand {
+    display: none;
+  }
 }
 @media (max-width: 1199px) and (max-width: 767px) {
   .main {
     background-position: top left;
+  }
+  .main-title h1 {
+    font-size: 1.71rem;
+    font-family: 'ProximaNova_bold' sans-serif;
+    text-align: center;
+    padding-bottom: 0;
   }
   .header {
     text-align: center;
@@ -656,14 +675,18 @@ section {
   .price .section-header-light {
     margin-bottom: 0;
   }
+  .feedback {
+    /* one } was added*/
+  }
   .feedback-form {
     margin-top: 2rem;
     text-align: center;
   }
   .feedback label {
-    margin-top: -2.9%;
+    position: absolute;
     left: 50%;
-    text-align: center;
+    -webkit-transform: translateX(-50%) translateY(-40%);
+            transform: translateX(-50%) translateY(-40%);
   }
   .feedback-prev-btn {
     left: 0;
@@ -671,14 +694,8 @@ section {
   .feedback-next-btn {
     right: 0;
   }
-  .feedback label {
-    margin-top: -8%;
-    left: 50%;
-    text-align: center;
-    font-size: 1.2rem;
-  }
 }
-@media (max-width: 1199px) and (max-width: 767px) and (max-width: 320px) {
+@media (max-width: 1199px) and (max-width: 320px) {
   .main {
     background-position: top right;
   }
@@ -703,5 +720,12 @@ section {
   .price .section-header-light {
     margin-bottom: 0;
   }
+  .feedback label {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-40%);
+            transform: translateX(-50%) translateY(-40%);
+  }
 }
 /* end of media */
+/* one} removed */
